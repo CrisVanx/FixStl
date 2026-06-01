@@ -21,7 +21,7 @@ def check_deps():
     except ImportError:
         missing.append("numpy")
     if missing:
-        print("❌  Faltan dependencias. Instálalas con:")
+        print(" Faltan dependencias. Instálalas con:")
         print(f"    pip install {' '.join(missing)}")
         sys.exit(1)
 
@@ -244,7 +244,7 @@ Ejemplos:
     start = time.time()
 
     # Cargar
-    section("📂  CARGANDO ARCHIVO")
+    section("CARGANDO ARCHIVO")
     try:
         mesh = trimesh.load(args.input, force="mesh")
         ok(f"Archivo cargado correctamente")
@@ -292,7 +292,7 @@ Ejemplos:
     print_summary(before, after, elapsed)
 
     # Exportar
-    section("💾  EXPORTANDO")
+    section("EXPORTANDO")
     try:
         mesh.export(output_path)
         ok(f"Guardado en: {output_path}")
