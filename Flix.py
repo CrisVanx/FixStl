@@ -1,5 +1,21 @@
 #!/usr/bin/env python3
 
+'''
+# 1. Crear el entorno virtual en la carpeta donde está tu script
+python3 -m venv venv
+
+# 2. Activarlo
+source venv/bin/activate
+
+# 4. Correr el script
+python3 Flix.py modelo.stl
+
+
+source venv/bin/activate
+'''
+
+
+
 import sys
 import os
 import argparse
