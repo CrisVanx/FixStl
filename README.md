@@ -16,7 +16,7 @@ Herramienta simple en Python para diagnosticar y reparar archivos STL.
 ## Instalación
 
 ```bash
-cd /Users/cristiangonzalez/Documents/Dev
+Carpeta donde esta el codigo
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
